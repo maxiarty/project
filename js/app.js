@@ -17,7 +17,6 @@ let filmOne = prompt('Один из последних просмотреных 
     filmTwoRating = +prompt('Ваша оценка этого фильма?', '0');
 
 personalMovieDB.movies[filmOne] = filmOneRating;
-
 personalMovieDB.movies[filmTwo] = filmTwoRating;
 
 console.log(personalMovieDB);
